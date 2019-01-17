@@ -5,7 +5,7 @@ tag: JavaScript核心
 category: JavaScript
 ---
 #### 语句
-- 每个<script>标签都提供一个被编译且立即执行的编译单元。因为缺少链接器，JavaScript把他们一起抛入一个公共的全局名字空间中。
+- 每个\<script>标签都提供一个被编译且立即执行的编译单元。因为缺少链接器，JavaScript把他们一起抛入一个公共的全局名字空间中。
 #### 假值，在判断真假的句子中返回false
 
 - NaN
