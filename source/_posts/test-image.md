@@ -7,5 +7,5 @@ tag:
 
 ## test-image
 
-![1](test-image/1.png)
+![1](images/1.png)
 
