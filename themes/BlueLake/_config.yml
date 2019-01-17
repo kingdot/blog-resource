@@ -91,7 +91,7 @@ addToAny_share: # AddToAny share. Empty list hides. List items are service name 
 
 # Analytics
 google_analytics: ## Your Google Analytics tracking id, e.g. UA-42025684-2
-baidu_analytics: 8639df72ee4c2eb9f2c2a67e42ba6865 ## Your Baidu Analytics tracking id, e.g. 1006843030519956000
+baidu_analytics: 281cc941ca205b4ebca856d71ae45a55 ## Your Baidu Analytics tracking id, e.g. 1006843030519956000
 
 # Miscellaneous
 show_category_count: true ## If you want to show the count of categories in the sidebar widget please set the value to true.
