@@ -78,7 +78,9 @@ theme: BlueLake
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/kingdot/kingdot.github.io.git
+  branch: master
 
 # json-content 
 jsonContent:
