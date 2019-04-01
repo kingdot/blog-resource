@@ -1,0 +1,74 @@
+---
+title: IEG二面
+date: 2019-3-31 11:39:01
+tag: 腾讯
+category: 面试
+---
+#### 三大框架比较
+
+> Angular:（大而全）
+
+Angular是一个框架，而不是一个库，他是一个完整的解决方案，功能齐全。
+
+适合较为复杂的SPA应用，比如工具类、OA类的应用。它属于大型框架，各个模块比较完整，提供的工具和拓展也比较丰富，适合沉淀大型项目，但上手成本高。并且**原生依赖于typescript**。
+
+适合有Java等面向对象语言开发经验的程序员使用。
+
+缺点：变动较快，兼容问题，并且以后可能会抛弃typescript转为dart。
+
+> React:（灵活）
+
+React是声明式，函数式的，适合对性能要求较高（v16.3引入了新的生命周期函数和fiber技术），且兼容移动端的产品（RN的应用比较广泛）。react‘更纯粹，更加自由，可控性更强’。html in js
+
+（注：fiber以render为界，划分两个阶段。可重复执行。）
+
+学习曲线较陡峭，需要了解更多的JavaScript。
+
+> Vue:（小而快）
+
+基于响应式的(HTML模板+VDOM)，适合增删改查类的管理系统，H5内嵌页，小程序之类的，改动频繁，综合成本较低。
+
+Vue更加'自动化，智能'。js in html
+
+模板----使用html还是jsx，angular、vue把js放到html中，而react把html放到js中。
+
+
+#### 总结
+
+1. 面向对象，typescript => angular，ES6 => React，ES5/6 =>Vue
+2. jsx还是html
+3. 框架还是UI库（angular无法直接添加到html中使用，因为它使用了typescript）。
+4. 状态管理和数据绑定
+5. 体积和性能
+6. 测试
+7. 原生开发：angular有ionic，react有RN
+8. 利用js渲染页面不利于SEO，因此有了服务端渲染
+9. 调试难易度，react和vue的黑魔法更少，找bug更容易。
+
+#### 心得
+
+新的框架常常能够引起我很多的思考，新的一些思想会冲击我，从不能接受到慢慢欣赏。同时学习和使用不同的框架能够相互促进，不建议二者好像只能取其一。就像多学习一门不同的语言，也能够体验更丰富的编程思想，最终能够融会贯通，提高自己。
+
+### HTML5新特性及使用
+
+1. 更多的语义化标签：<header><footer><nav><article><section>，告别div+css
+2. 多媒体标签：<audio><vedio>
+3. input类型拓展：email，number，url，range，color，tel，date
+3. canvas,svg,webGL,CSS3的3D功能
+4. localStorage,sessionStorage，IndexedDB（文档数据库，遵循同源策略）
+5. serviceWorker,webWorker,websocket
+6. 设备访问：geolocation
+
+
+#### 补充：Redux和MobX的区别
+
+两个库都提供了一种在组件外部管理应用程序状态的方法。状态与组件分离。组件可以访问状态，操作它（显式，隐式）并使用新状态进行更新。
+
+Redux拥有单一store，且具有不可变性，只能通过reducer修改
+
+MobX可以有多个store，且状态是可变的。
+
+
+#### 面试心得
+
+永远不要觉得面试官是在单纯的跟你聊天，他说的每句话都是有目的的，想好了再回答。技术不分高下，只有适用场景不同。慎言！
