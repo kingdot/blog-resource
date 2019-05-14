@@ -86,15 +86,15 @@ hotfix | hotfix 分支，紧急修复 bug 的时候用
 
 > 注意：
 
-先有一个 master
+1. 先有一个 master
 
-从 master 拉取一个 develop， 以后它负责维护最新的功能；
+2. 然后从 master 拉取一个 develop， 以后它负责维护最新的功能；
 
-从 develop 新建各种 feature 分支，负责各个功能开发
+3. 从 develop 新建各种 feature 分支，负责各个功能开发
 
-feature 通过 PR／MR 的方式合并回 develop 分支；
+4. feature 通过 PR／MR 的方式合并回 develop 分支；
 
-release 从 develop 拉取，进行测试环境测试
+5. release 从 develop 拉取，进行测试环境测试
 
 > 对于 release 流程，则是要注意几点（**重要**）：
 
@@ -106,7 +106,7 @@ release 从 develop 拉取，进行测试环境测试
 
 > 对于 hotfix 流程，则是要注意几点：
 
-从 master 分支发起，修复完要同时合并到 develop 和 master。
+- 从 master 分支发起，修复完要同时合并到 develop 和 master。
 
 #### PR 和 MR 的区别
 
