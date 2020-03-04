@@ -103,14 +103,14 @@ about:
   photo_url: ../img/photo.png ## Your photo e.g. http://obzf7z93c.bkt.clouddn.com/themeauthor.jpg
   items:
   - label: email
-    url: mailto:1039927967@qq.com ## Your email with mailto: e.g.  mailto:zhenggchaoo@gmail.com
-    title: 1039927967@qq.com ## Your email e.g.  zhenggchaoo@gmail.com
+    url: mailto:kingdot@gmail.com ## Your email with mailto: e.g.  mailto:zhenggchaoo@gmail.com
+    title: kingdot@gmail.com ## Your email e.g.  zhenggchaoo@gmail.com
   - label: github
     url: https://github.com/kingdot ## Your github'url e.g.  https://github.com/chaooo
     title: kingdot ## Your github'name e.g.  chaooo
-  - label: weibo
-    url: https://weibo.com/u/2064341263 ## Your weibo's url e.g.  http://weibo.com/zhengchaooo
-    title: 朱檐冷枫舞 ## Your weibo's name e.g.  秋过冬漫长
+#  - label: weibo
+#    url: https://weibo.com/u/2064341263 ## Your weibo's url e.g.  http://weibo.com/zhengchaooo
+#    title: 朱檐冷枫舞 ## Your weibo's name e.g.  秋过冬漫长
 # - label: twitter
 #   url: 
 #   title:
